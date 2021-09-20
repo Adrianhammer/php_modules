@@ -14,12 +14,13 @@
 $tall1 = 1;
 $tall2 = 10;
 
+// Tall 2 kan være en annen datatype som Float uten at det vil skape problemer men ikke datatypen String f.eks
 
-while ($tall1 <= 10) {
+for ($i = 0; $i <= 10; $i++) {
 
     $addSum = $tall1+$tall2;
 
-    $diffSum = $tall1 - $tall2;
+    $diffSum = abs($tall1 - $tall2);
 
     $avgSum = ($tall1+$tall2)/2;
 
@@ -27,19 +28,11 @@ while ($tall1 <= 10) {
 
 
     $tall1++;
-} 
-
-
-
-
-
-
-
-
+    
+}
 
 
 ?>
-
 
 
 </body>
