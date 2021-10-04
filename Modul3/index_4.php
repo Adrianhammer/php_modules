@@ -21,6 +21,7 @@
 
 $kommune = $_POST["kommune"];
 
+//Match funksjon som sjekker Kommune tilhørighet
 $result = match($kommune) {
     "Kristiansand", "Lillesand", "Birkenes", "Bjerkreim" => "Agder",
 
@@ -32,6 +33,7 @@ $result = match($kommune) {
 
     "Bodø", => "Nordland",
 
+    //Defaulter hvis den ikke finner noe
     default => "Finner ikke kommune i registeret",
 };
 

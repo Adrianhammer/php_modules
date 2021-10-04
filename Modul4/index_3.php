@@ -61,31 +61,18 @@ $infoMember  = array
 </head>
 <body>
 <h2>Oppdatere informasjon</h2>
-
+<pre>
 <form action="index_3.php">
 
 <form method="POST" action="index_3.php">
 
-First name:
-<input type="text" name="fName" required value=<?php echo $infoMember ["firstName"];?>>
-
-Last name:
-<input type="text" name="lName"  required value=<?php echo $infoMember ["lastName"];?>>
-
-<br>Address:
-<input type="text" name="address" required value=<?php echo $infoMember ["address"];?>>
-
-Zip code:
-<input type="text" name="zip" required value=<?php echo $infoMember ["Zipcode"];?>>
-
-City:
-<input type="text" name="city" required value=<?php echo $infoMember ["City"];?>>
-
-<br>Phone number:
-<input type="text" name="phoneNum" required value=<?php echo $infoMember ["Phonenumber"];?>>
-
-email:
-<input type="text" name="email" required value=<?php echo $infoMember ["Email"];?>>
+First name:       <input type="text" name="fName" required value=<?php echo $infoMember ["firstName"];?>><br>
+Last name:        <input type="text" name="lName"  required value=<?php echo $infoMember ["lastName"];?>><br>
+Address:          <input type="text" name="address" required value=<?php echo $infoMember ["address"];?>><br>
+Zip code:         <input type="text" name="zip" required value=<?php echo $infoMember ["Zipcode"];?>><br>
+City:             <input type="text" name="city" required value=<?php echo $infoMember ["City"];?>><br>
+Phone number:     <input type="text" name="phoneNum" required value=<?php echo $infoMember ["Phonenumber"];?>><br>
+email:            <input type="text" name="email" required value=<?php echo $infoMember ["Email"];?>><br>
 
 <label for="dateofbirth">Date of birth:</label>
 <input type="date" id="dateofbirth" name="dob" required value="value=<?php echo $infoMember ["Dateofbirth"];?>"
@@ -98,28 +85,23 @@ max="<?php echo date ('Y-m-d'); ?>">
 <option value="male">male</option>
 <option value="female">female</option>
 <option value="another">another</option>
-</select>
+</select><br>
 
-<br>Interests:
-<input type="text" name="interests" required value=<?php echo $infoMember ["Interests"];?> >
+Interests:          <input type="text" name="interests" required value=<?php echo $infoMember ["Interests"];?>><br>
+Course activities:  <input type="text" name="courseAct" required value=<?php echo $infoMember ["Courseactivities"];?> ><br>
 
-Course activities:
-<input type="text" name="courseAct" required value=<?php echo $infoMember ["Courseactivities"];?> >
 
-<br>
 <label for="start">Member since:</label>
 <input type="date" id="start" required name="memberSince" value="value=<?php echo $infoMember ["Membersince"];?>"
 min="2010-01-01"
-max="<?php echo date ('Y-m-d'); ?>"
->
+max="<?php echo date ('Y-m-d'); ?>"><br>
+Kontingentstatus: <input type="text" name="kontStat" required value=<?php echo $infoMember ["Kontingentstatus"];?>><br>
 
-<br>Kontingentstatus:
-<input type="text" name="kontStat" required value=<?php echo $infoMember ["Kontingentstatus"];?>>
-<br>
 <input type="hidden" name="form_submitted" value="1">
 <input type="submit" value="Submit" class="submitbtn">
 
 
 </form>
+</pre>
 </body>
 </html>
