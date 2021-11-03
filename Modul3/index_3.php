@@ -16,12 +16,16 @@ $tall2 = 10;
 
 // Tall 2 kan være en annen datatype som Float uten at det vil skape problemer men ikke datatypen String f.eks
 
+//For løkke som itererer 10 ganger
 for ($i = 0; $i <= 10; $i++) {
 
+    //Adderer
     $addSum = $tall1+$tall2;
 
+    //Finner differanse men tar hensyn til negative tall
     $diffSum = abs($tall1 - $tall2);
 
+    //Finner gjennomsnittet
     $avgSum = ($tall1+$tall2)/2;
 
     echo "add sum is: ", $addSum, ", diff sum is: ", $diffSum, ", average sum is: ", $avgSum, "<br><br>";

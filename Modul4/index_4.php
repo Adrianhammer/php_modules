@@ -12,6 +12,44 @@
 
 <?php
 
+<<<<<<< HEAD
+=======
+/*
+$names = array(
+    1   => "Adrian", 
+    2   => "Adel", 
+    3   => "Oskar", 
+    4   => "Ronald", 
+    5   => "Dzenet", 
+    6   => "Hamilton", 
+    7   => "Vettel", 
+    8   => "Leclerc", 
+    9   => "Verstappen", 
+    10  => "Ricciardo"
+);
+
+$alteredNames = array_replace($names, 
+[
+    1   => "Hammer", 
+    2   => "Hodzalari", 
+    3   => "Testad", 
+    4   => "Mpararo", 
+    5   => "Bero", 
+    6   => "Lewis", 
+    7   => "Sebastian", 
+    8   => "Charles", 
+    9   => "Max", 
+    10  => "Daniel"
+]);
+
+echo "<pre>";
+print_r($names);
+print_r($alteredNames);
+echo "</pre>";
+
+*/
+
+>>>>>>> 912e056061ac844aae55920ddc9e3a440f09c851
 $drivers = array("Adrian", "Adel", "Oskar", "Ronald", "Dzenet", "Hamilton", "Vettel", "Leclerc", "Verstappen", "Ricciardo");
 
 
@@ -38,8 +76,19 @@ echo "<pre>";
 echo print_r($alteredDrivers);
 echo "</pre>";
 
+<<<<<<< HEAD
 $newIndex1 = 10;
 
+=======
+
+
+
+$newIndex1 = 10;
+
+
+
+
+>>>>>>> 912e056061ac844aae55920ddc9e3a440f09c851
 $alteredIndex = array_combine(range($newIndex1, count($alteredDrivers) + ($newIndex1-1)), array_values($alteredDrivers));
 
 
@@ -47,6 +96,15 @@ echo "<pre>";
 echo print_r($alteredIndex);
 echo "</pre>";
 
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+>>>>>>> 912e056061ac844aae55920ddc9e3a440f09c851
 ?>
 
 

@@ -10,6 +10,7 @@
     <h1>Oppgave 2: registrering av nytt medlem</h1>
     <h2>Registration form</h2>
 
+<<<<<<< HEAD
 <?php 
 
 //Hvis form er sendt, skal den printe en melding til brukeren, hvis ikke skal den fortsette å hvise et form
@@ -19,6 +20,13 @@ if (isset($_POST['form_submitted'])) :
 ?> 
 
 <h2>Thank you, your registration info can be seen below:</h2>
+=======
+<?php if (isset($_POST['form_submitted'])) : ?> 
+
+<h2>Thank you, your registration info can be seen below:</h2>
+
+
+>>>>>>> 912e056061ac844aae55920ddc9e3a440f09c851
 
 <?php
 
@@ -29,6 +37,13 @@ foreach ($form as $forms) {
     echo $forms."<br>";
 }
 
+<<<<<<< HEAD
+=======
+echo "<pre>";
+print_r($form);
+echo "<pre>";
+
+>>>>>>> 912e056061ac844aae55920ddc9e3a440f09c851
 ?>          
 
 <?php else: ?>

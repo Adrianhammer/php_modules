@@ -11,17 +11,21 @@
 
 <?php
 
+//Setter sum til 0
 $sum = 0;
 
+//For løkke som teller til 9
 for ($i = 0; $i <= 9; $i++) {
     echo "$i <br>";
 
+    //Legger til 1 i $sum etter hver iterasjon
     $sum = $sum + $i;
+    
 }
 
 
-echo $sum;
 
+echo "Ferdig å telle! Summen av tallene ble $sum";
 
 
 

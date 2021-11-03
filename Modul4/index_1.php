@@ -23,9 +23,13 @@ $cities = array(
 
 
 //Printer ut $cities array
+<<<<<<< HEAD
 echo "<pre>";
 print_r($cities);
 echo "</pre>";
+=======
+print_r($cities);
+>>>>>>> 912e056061ac844aae55920ddc9e3a440f09c851
 
 
 //Foreach løkke som printer ut $cities array
