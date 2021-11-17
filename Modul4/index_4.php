@@ -12,6 +12,8 @@
 
 <?php
 
+<<<<<<< HEAD
+=======
 /*
 $names = array(
     1   => "Adrian", 
@@ -47,6 +49,7 @@ echo "</pre>";
 
 */
 
+>>>>>>> 912e056061ac844aae55920ddc9e3a440f09c851
 $drivers = array("Adrian", "Adel", "Oskar", "Ronald", "Dzenet", "Hamilton", "Vettel", "Leclerc", "Verstappen", "Ricciardo");
 
 
@@ -73,6 +76,10 @@ echo "<pre>";
 echo print_r($alteredDrivers);
 echo "</pre>";
 
+<<<<<<< HEAD
+$newIndex1 = 10;
+
+=======
 
 
 
@@ -81,6 +88,7 @@ $newIndex1 = 10;
 
 
 
+>>>>>>> 912e056061ac844aae55920ddc9e3a440f09c851
 $alteredIndex = array_combine(range($newIndex1, count($alteredDrivers) + ($newIndex1-1)), array_values($alteredDrivers));
 
 
@@ -88,12 +96,15 @@ echo "<pre>";
 echo print_r($alteredIndex);
 echo "</pre>";
 
+<<<<<<< HEAD
+=======
 
 
 
 
 
 
+>>>>>>> 912e056061ac844aae55920ddc9e3a440f09c851
 ?>
 
 
